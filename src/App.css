@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: "Roboto Condesed", sans-serif;
+  font-family: "Roboto Condensed", sans-serif !important;
 }
 
 /*********************NAVBAR*******************/
@@ -78,7 +78,6 @@ nav ul li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: "Roboto Condesed", sans-serif;
   z-index: 1;
 }
 
@@ -129,4 +128,31 @@ nav ul li {
   .particles-canvas {
     display: none;
   }
+}
+
+/*********************ABOUT ME*******************/
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-img {
+  width: 25rem;
+  border-radius: 10%;
+  padding: 0.3rem;
+  border: 5px solid var(--primary-orange);
+}
+
+.about-heading {
+  color: var(--primary-orange);
+  text-transform: uppercase;
+}
+@media (max-width: 468px) {
+  .profile-img {
+    width: 15rem;
+  }
+}
+
+.para p {
+  font: normal 500 25px;
 }
