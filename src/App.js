@@ -18,14 +18,15 @@ function App() {
           value:20,
           density:{
             enable:true, 
-            value_area:1000
+            value_area:900
           }
         },
         shape:{
           type:"square",
           stroke:{
             width:6,
-            color:"#f9ab00"
+            color: {
+              value:"random ",}
           }
         }
       }

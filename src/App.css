@@ -22,12 +22,13 @@ nav {
 
 /*-----------------MENU LINKS--------------*/
 nav a.nav-link {
-  font-size: 0.8rem;
-  letter-spacing: 0.0375rem;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
   cursor: pointer;
 }
 nav ul li {
   text-transform: uppercase;
+  font-weight: 500;
 }
 
 .navbar-nav > li > a {
@@ -41,7 +42,7 @@ nav ul li {
 .navbar-brand {
   max-width: 17.25rem;
   padding: 0 !important;
-  height: 6rem !important;
+  height: 7rem !important;
 }
 
 @media (max-width: 768px) {
@@ -64,7 +65,7 @@ nav ul li {
   background: url(wall-and-laptop-background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 65vh;
 }
 
 .main-info {
@@ -84,6 +85,7 @@ nav ul li {
 .main-info h1 {
   color: var(--primary-orange) !important;
   text-transform: uppercase;
+  font-weight: 600;
 }
 
 /*---------------- TYPED TEXT--------------*/
@@ -120,10 +122,11 @@ nav ul li {
 /*-----------------PARTICLES JS ------------------*/
 .tsparticles-canvas-el {
   position: absolute;
-  height: 100vh;
+  height: 500vh;
   width: 100vw;
   z-index: 1;
 }
+
 @media (max-width: 768px) {
   .particles-canvas {
     display: none;
@@ -131,28 +134,40 @@ nav ul li {
 }
 
 /*********************ABOUT ME*******************/
+
 .photo-wrap {
+  padding: 0.8rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 4;
 }
 .profile-img {
-  width: 25rem;
+  padding: 0.7rem;
+  width: 20rem;
   border-radius: 10%;
-  padding: 0.3rem;
   border: 5px solid var(--primary-orange);
 }
 
 .about-heading {
   color: var(--primary-orange);
   text-transform: uppercase;
+  padding: 2rem;
+  font-weight: 1500 !important;
+  text-align: center;
+  font-weight: 900;
 }
+
 @media (max-width: 468px) {
   .profile-img {
     width: 15rem;
   }
 }
 
-.para p {
-  font: normal 500 25px;
+.about-para {
+  padding: 0.5rem;
+  text-align: justify;
+  font-size: 1.1rem;
+  font-weight: 600;
+  z-index: 2;
 }
