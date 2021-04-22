@@ -31,7 +31,7 @@ import {faBars} from "@fortawesome/free-solid-svg-icons";
               <a className="nav-link" href="#home">services</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#home">how work</a>
+              <a className="nav-link" href="#home">experience</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#home">portfolio</a>
