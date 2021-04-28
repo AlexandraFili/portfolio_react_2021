@@ -6,6 +6,8 @@ import Header from "./components/Header.js";
 import AboutMe from "./components/AboutMe";
 import Service from "./components/Services";
 import Experience from "./components/Experience";
+import Portfolio from "./components/Porfolio";
+import Testimonials from "./components/Testimonials";
 
 
 function App() {
@@ -26,8 +28,7 @@ function App() {
           type:"square",
           stroke:{
             width:6,
-            color: {
-              value:"random ",}
+            color: "#fffff"
           }
         }
       }
@@ -39,6 +40,8 @@ function App() {
     <AboutMe />
     <Service />
     <Experience />
+    <Portfolio />
+    <Testimonials />
     </>
   );
 }
