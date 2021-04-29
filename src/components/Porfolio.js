@@ -1,8 +1,8 @@
 import React from "react";
-import netflix from "../images/netflix.png";
-import cityGuide from "../images/city-guide-app.png";
-import portfolio from "../images/portfolio.png";
-import taskManager from "../images/task-manager.png";
+import netflix from "../images/3aaa.png";
+import cityGuide from "../images/travel-app.png";
+import portfolio from "../images/bubbleGame.png";
+import taskManager from "../images/starbucks.png";
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
@@ -18,9 +18,12 @@ import "react-popupbox/dist/react-popupbox.css";
       const openPopupboxNetflix = () => {
         const content = (
           <>
-            <img className="portfolio-image-popupbox" src={netflix} alt="Netflix Clone Project..." />
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-            <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/netflix-project")}>https://github.com/8020Coding/netflix-project</a>
+            <img className="portfolio-image-popupbox" src={netflix} alt=" Project..." />
+            
+            <p>The 3A_web website was designed as a part WorkExperiance subject. Built with Bootstrap 4 framework, HTML, CSS..</p>
+            <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://alexandrafili.github.io/3a_web/", "_blank")}>https://alexandrafili.github.io/3a_web/</a>
+             <br />
+            <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/AlexandraFili/3a_web")}>https://github.com/AlexandraFili/3a_web</a>
           </>
         )
         PopupboxManager.open({ content })
@@ -35,15 +38,17 @@ import "react-popupbox/dist/react-popupbox.css";
         fadeInSpeed: 500
       }
 
-        // City Guide App
+        // Travel App
   const openPopupboxCityGuide = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={cityGuide} alt="City Guide App Project..." />
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://city-guide-app-project.herokuapp.com/", "_blank")}>https://city-guide-app-project.herokuapp.com/</a>
-        <br />
+        
+ 
         <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/city-guide-app", "_blank")}>https://github.com/8020Coding/city-guide-app</a>
+        <br />
+        <b>Tutorial Source:</b> <a className="hyper-link" onClick={() => window.open("https://www.youtube.com/watch?v=I2UBjN5ER4s", "_blank")}>https://www.youtube.com/watch?v=I2UBjN5ER4s</a>
       </>
     )
     PopupboxManager.open({ content })
@@ -58,15 +63,15 @@ import "react-popupbox/dist/react-popupbox.css";
     fadeInSpeed: 500
   }
 
-   // Portfolio Project
+   // JS Bubble Game
    const openPopupboxPortfolio = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={portfolio} alt="Portfolio Project..." />
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://portfolio-rea-and-material-ui.herokuapp.com/", "_blank")}>https://portfolio-rea-and-material-ui.herokuapp.com/</a>
+        <img className="portfolio-image-popupbox" src={portfolio} alt="Bubble Game..." />
+        <p>This Bubbles Game can display or remove colourful bubbles by clicking one of the buttons. Please check it out on this link</p>
+        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://alexandrafili.github.io/bubble_game/", "_blank")}>https://alexandrafili.github.io/bubble_game/</a>
         <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/portfilio", "_blank")}>https://github.com/8020Coding/portfilio</a>
+        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/AlexandraFili/bubble_game", "_blank")}>https://github.com/AlexandraFili/bubble_game</a>
       </>
     )
     PopupboxManager.open({ content })
@@ -75,7 +80,7 @@ import "react-popupbox/dist/react-popupbox.css";
   const popupboxConfigPortfolio = {
     titleBar: {
       enable: true,
-      text: "Poftfolio React and Material UI project."
+      text: "Bubbles Game"
     },
     fadeIn: true,
     fadeInSpeed: 500
@@ -85,11 +90,11 @@ import "react-popupbox/dist/react-popupbox.css";
   const openPopupboxTaskManager = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={taskManager} alt="Task Manager React and Redux Project..." />
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://react-redux-task-manager.herokuapp.com/", "_blank")}>https://react-redux-task-manager.herokuapp.com/</a>
+        <img className="portfolio-image-popupbox" src={taskManager} alt="Bubble Game......" />
+        <p>Mini project, prictice wirh Landing Page Website Design using HTML, CSS & Javascript.</p>
+        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://alexandrafili.github.io/StarbucksWeb/", "_blank")}>https://alexandrafili.github.io/StarbucksWeb/</a>
         <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/task-manager", "_blank")}>https://github.com/8020Coding/task-manager</a>
+        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/AlexandraFili/StarbucksWeb", "_blank")}>https://github.com/8020Coding/task-manager</a>
       </>
     )
     PopupboxManager.open({ content })
@@ -98,7 +103,7 @@ import "react-popupbox/dist/react-popupbox.css";
   const popupboxConfigTaskManager = {
     titleBar: {
       enable: true,
-      text: "Task Manager React and Redux project."
+      text: "Please check my work..."
     },
     fadeIn: true,
     fadeInSpeed: 500
@@ -107,7 +112,7 @@ import "react-popupbox/dist/react-popupbox.css";
 
     return (
    
-      <div className="portfolio-wrapper">
+      <div id="portfolio" className="portfolio-wrapper">
       <div className="container">
         <h1 className="text-uppercase text-center py-5">portfolio</h1>
         <div className="image-box-wrapper row justify-content-center">

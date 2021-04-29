@@ -4,7 +4,7 @@ import author from "../me02.jpeg";
 
 const AboutMe = () => {
     return (
-      <div className="about-me">
+      <div id="about" className="about-me">
         <div className = "container py-5">
           
             <div className="row">

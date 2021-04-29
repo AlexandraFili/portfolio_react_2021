@@ -65,17 +65,17 @@ nav ul li {
 }
 
 .navbar-nav > li > a:hover {
-  border-top: 0.1875rem solid var(--primary-orange);
+  border-bottom: 0.1875rem solid var(--primary-orange);
 }
 
-/************************ HEADER COMPONENT *********************************/
+/************************ HEADER *********************************/
 
 .header-wraper {
   position: relative;
   background: url(wall-and-laptop-background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 60vh;
 }
 
 .main-info {
@@ -89,13 +89,13 @@ nav ul li {
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-family: "Roboto Condesed", sans-serif;
   z-index: 1;
 }
 
 .main-info h1 {
   color: var(--primary-orange);
   text-transform: uppercase;
-  font-weight: 600;
 }
 
 /*-------- TYPED TEXT ---------------*/
@@ -156,17 +156,26 @@ nav ul li {
   border-radius: 30%;
   padding: 0.3rem;
   border: 5px solid var(--primary-orange);
+  z-index: 2;
 }
 
 .about-heading {
   color: var(--primary-orange);
   font-weight: 600;
   text-transform: uppercase;
+  z-index: 1;
 }
 
-@media (max-width: 468px) {
+@media (max-width: 768px) {
   .profile-img {
-    width: 10rem;
+    width: 13rem;
+  }
+  .about-heading {
+    color: var(--primary-orange);
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 1;
   }
 }
 
