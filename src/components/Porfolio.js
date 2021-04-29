@@ -42,7 +42,7 @@ import "react-popupbox/dist/react-popupbox.css";
   const openPopupboxCityGuide = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={cityGuide} alt="City Guide App Project..." />
+        <img className="portfolio-image-popupbox" src={cityGuide} alt="Trvl Gallery Project...." />
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
         
  
@@ -57,7 +57,7 @@ import "react-popupbox/dist/react-popupbox.css";
   const popupboxConfigCityGuide = {
     titleBar: {
       enable: true,
-      text: "City Guide App project."
+      text: "Trvl Gallery Project."
     },
     fadeIn: true,
     fadeInSpeed: 500
@@ -94,7 +94,7 @@ import "react-popupbox/dist/react-popupbox.css";
         <p>Mini project, prictice wirh Landing Page Website Design using HTML, CSS & Javascript.</p>
         <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://alexandrafili.github.io/StarbucksWeb/", "_blank")}>https://alexandrafili.github.io/StarbucksWeb/</a>
         <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/AlexandraFili/StarbucksWeb", "_blank")}>https://github.com/8020Coding/task-manager</a>
+        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/AlexandraFili/StarbucksWeb", "_blank")}>https://github.com/AlexandraFili/StarbucksWeb</a>
       </>
     )
     PopupboxManager.open({ content })
