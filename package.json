@@ -1,8 +1,9 @@
-{ "homepage": "https://alexandrafili.github.io/portfolio_react_2021/",
+{ 
   "name": "portfolio_project_react",
   "version": "0.1.0",
   "private": true,
-  
+  "homepage": "https://alexandrafili.github.io/portfolio_react_2021/",
+
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
