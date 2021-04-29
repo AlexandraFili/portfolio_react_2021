@@ -25,12 +25,13 @@ nav {
 }
 
 .logo {
-  width: 16.25rem;
+  width: 11.25rem;
 }
 
 /*----- MENU LINKS --------*/
 nav a.nav-link {
   font-size: 0.8rem;
+  font-weight: 500;
   letter-spacing: 0.0375rem;
   cursor: pointer;
 }
@@ -67,7 +68,7 @@ nav ul li {
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
-/************************ HEADER *********************************/
+/************************ HEADER COMPONENT *********************************/
 
 .header-wraper {
   position: relative;
@@ -94,6 +95,7 @@ nav ul li {
 .main-info h1 {
   color: var(--primary-orange);
   text-transform: uppercase;
+  font-weight: 600;
 }
 
 /*-------- TYPED TEXT ---------------*/
@@ -142,7 +144,7 @@ nav ul li {
   }
 }
 
-/************************ ABOUT ME *********************************/
+/************************ ABOUT ME COMPONENT *********************************/
 .photo-wrap {
   display: flex;
   justify-content: center;
@@ -151,9 +153,9 @@ nav ul li {
 
 .profile-img {
   width: 16rem;
-  border-radius: 50%;
+  border-radius: 30%;
   padding: 0.3rem;
-  border: 1px solid var(--primary-orange);
+  border: 5px solid var(--primary-orange);
 }
 
 .about-heading {
@@ -168,7 +170,7 @@ nav ul li {
   }
 }
 
-/************************ SERVICES *********************************/
+/************************ SERVICES COMPONENT *********************************/
 .services {
   text-align: center;
   padding-bottom: 2rem;
@@ -225,7 +227,7 @@ nav ul li {
   color: var(--primary-white);
 }
 
-/************************ EXPERIENCE *********************************/
+/************************ EXPERIENCE COMPONENT *********************************/
 
 .experience {
   padding: 0.7rem;
@@ -316,7 +318,7 @@ nav ul li {
   }
 }
 
-/************************ PORTFOLIO *********************************/
+/************************ PORTFOLIO COMPONENT *********************************/
 .portfolio-wrapper {
   background: var(--primary-light-grey);
   padding: 3rem 0;
@@ -414,7 +416,7 @@ nav ul li {
   }
 }
 
-/************************ TESTIMONIALS *********************************/
+/************************ TESTIMONIALS COMPONENT *********************************/
 .testimonials {
   background-image: url(testimonials-bg.jpg);
   background-size: cover;
@@ -488,6 +490,7 @@ nav ul li {
 .contacts h1 {
   color: var(--primary-orange);
   padding: 1.3rem 0;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -509,7 +512,7 @@ nav ul li {
   color: var(--primary-orange);
   outline: 0 !important;
   box-shadow: none !important;
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
   padding-left: 0 !important;
 }
 
@@ -568,7 +571,7 @@ textarea.form-control {
   color: var(--primary-green);
 }
 
-/*---------------- MEDIA -----------------------*/
+/*---------------- MEDIA CONTACT COMPON -----------------------*/
 @media (max-width: 768px) {
   .contacts {
     overflow-x: hidden;

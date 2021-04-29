@@ -18,16 +18,13 @@ const AboutMe = () => {
         <div className="col-lg-6 col-xm-12">
           <h1 className="about-heading">about me</h1>
           <p className="about-para">
-            Hello! I am Alexandra, junior Web developer able to build a Web presence from the ground up - from concept, navigation, layout and programming to UX and SEO.
+            Hello! I am Alexandra, junior Web developer who can build a Web presence from the ground up - starting at the concept, navigation, layout and programming to UX and SEO.
             </p>
             <p className="about-para">
-            I have been developing websites for almost a year. I'm Full-Stack Web Developer. My favourite Web tools are JavaScript, React, Bootstrap, Github, GitBush,
+            Developing websites for a year, I'm Full-Stack Web Developer. My prefered Web tools are Visual Studio Code, JavaScript, ReactJS, Bootstrap, Github, GitBush, Trello,
              HTML, CSS, MySQL etc
-
-            
-
-           </p>
-           <p className="about-para">I create responsive websites that are displayed on all devices desktops and smartphones.
+         </p>
+           <p className="about-para">I create responsive websites that are displayed on all devices, from desktop to smartphones.
 
 Of course, before I begin developing any webapp, Landing Page or Business Website, I need to have a ready-made project layout (sketch).
 
