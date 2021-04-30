@@ -46,7 +46,7 @@ import "react-popupbox/dist/react-popupbox.css";
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
         
  
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/city-guide-app", "_blank")}>https://github.com/8020Coding/city-guide-app</a>
+        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/AlexandraFili/react_website_tutorial", "_blank")}>https://github.com/AlexandraFili/react_website_tutorial</a>
         <br />
         <b>Tutorial Source:</b> <a className="hyper-link" onClick={() => window.open("https://www.youtube.com/watch?v=I2UBjN5ER4s", "_blank")}>https://www.youtube.com/watch?v=I2UBjN5ER4s</a>
       </>
