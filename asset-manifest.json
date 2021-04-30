@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio_react_2021/static/css/main.936f28f1.chunk.css",
-    "main.js": "/portfolio_react_2021/static/js/main.0930baa1.chunk.js",
-    "main.js.map": "/portfolio_react_2021/static/js/main.0930baa1.chunk.js.map",
-    "runtime-main.js": "/portfolio_react_2021/static/js/runtime-main.298970c0.js",
-    "runtime-main.js.map": "/portfolio_react_2021/static/js/runtime-main.298970c0.js.map",
+    "main.js": "/portfolio_react_2021/static/js/main.679425a4.chunk.js",
+    "main.js.map": "/portfolio_react_2021/static/js/main.679425a4.chunk.js.map",
+    "runtime-main.js": "/portfolio_react_2021/static/js/runtime-main.bbb90c86.js",
+    "runtime-main.js.map": "/portfolio_react_2021/static/js/runtime-main.bbb90c86.js.map",
     "static/css/2.adb406d7.chunk.css": "/portfolio_react_2021/static/css/2.adb406d7.chunk.css",
-    "static/js/2.52347a92.chunk.js": "/portfolio_react_2021/static/js/2.52347a92.chunk.js",
-    "static/js/2.52347a92.chunk.js.map": "/portfolio_react_2021/static/js/2.52347a92.chunk.js.map",
-    "static/js/3.6ac6fb6a.chunk.js": "/portfolio_react_2021/static/js/3.6ac6fb6a.chunk.js",
-    "static/js/3.6ac6fb6a.chunk.js.map": "/portfolio_react_2021/static/js/3.6ac6fb6a.chunk.js.map",
+    "static/js/2.c33e3a85.chunk.js": "/portfolio_react_2021/static/js/2.c33e3a85.chunk.js",
+    "static/js/2.c33e3a85.chunk.js.map": "/portfolio_react_2021/static/js/2.c33e3a85.chunk.js.map",
+    "static/js/3.7fea3fe2.chunk.js": "/portfolio_react_2021/static/js/3.7fea3fe2.chunk.js",
+    "static/js/3.7fea3fe2.chunk.js.map": "/portfolio_react_2021/static/js/3.7fea3fe2.chunk.js.map",
     "index.html": "/portfolio_react_2021/index.html",
     "static/css/2.adb406d7.chunk.css.map": "/portfolio_react_2021/static/css/2.adb406d7.chunk.css.map",
     "static/css/main.936f28f1.chunk.css.map": "/portfolio_react_2021/static/css/main.936f28f1.chunk.css.map",
-    "static/js/2.52347a92.chunk.js.LICENSE.txt": "/portfolio_react_2021/static/js/2.52347a92.chunk.js.LICENSE.txt",
+    "static/js/2.c33e3a85.chunk.js.LICENSE.txt": "/portfolio_react_2021/static/js/2.c33e3a85.chunk.js.LICENSE.txt",
     "static/media/3aaa.5156fa56.png": "/portfolio_react_2021/static/media/3aaa.5156fa56.png",
     "static/media/avatar-1.9277ecea.png": "/portfolio_react_2021/static/media/avatar-1.9277ecea.png",
     "static/media/avatar-2.75d8f23e.png": "/portfolio_react_2021/static/media/avatar-2.75d8f23e.png",
@@ -27,10 +27,10 @@
     "static/media/travel-app.da29d25c.png": "/portfolio_react_2021/static/media/travel-app.da29d25c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.298970c0.js",
+    "static/js/runtime-main.bbb90c86.js",
     "static/css/2.adb406d7.chunk.css",
-    "static/js/2.52347a92.chunk.js",
+    "static/js/2.c33e3a85.chunk.js",
     "static/css/main.936f28f1.chunk.css",
-    "static/js/main.0930baa1.chunk.js"
+    "static/js/main.679425a4.chunk.js"
   ]
 }
